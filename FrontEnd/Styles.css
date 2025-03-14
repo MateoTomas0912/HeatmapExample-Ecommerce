@@ -1,0 +1,15 @@
+body { background-color: #ebebeb; }
+.product-image-modal{
+    width: 70px;
+    margin-left: 40%;
+}
+#heatmapContainer {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: 1000;
+}
+ .card { border: none; transition: box-shadow 0.3s ease; } .card:hover { box-shadow: 0 2px 12px rgba(0,0,0,0.1); } .card-img-top { padding: 1rem; } .card-title { font-size: 14px; color: #333; margin-bottom: 8px; font-weight: 400; } .original-price { font-size: 14px; color: #999; text-decoration: line-through; margin-bottom: 4px; } .discount { color: #00a650; font-size: 14px; margin-bottom: 4px; } .price { font-size: 24px; color: #333; margin-bottom: 8px; } .installments { font-size: 14px; color: #00a650; margin-bottom: 8px; } .shipping { font-size: 14px; color: #00a650; display: flex; align-items: center; gap: 8px; } .full { background-color: #00a650; color: white; padding: 2px 4px; border-radius: 3px; font-size: 12px; }

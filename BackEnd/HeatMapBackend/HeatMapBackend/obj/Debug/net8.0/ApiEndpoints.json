@@ -1,0 +1,28 @@
+[
+  {
+    "ContainingType": "HeatMapBackend.Controllers.HeatMapController",
+    "Method": "SaveHeatmapData",
+    "RelativePath": "api/heatmap",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "events",
+        "Type": "System.Collections.Generic.List\u00601[[HeatMapBackend.Dto.HeatmapEvent, HeatMapBackend, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HeatMapBackend.Controllers.HeatMapController",
+    "Method": "GetHeatmapData",
+    "RelativePath": "api/heatmap",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]

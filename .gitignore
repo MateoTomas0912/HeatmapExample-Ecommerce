@@ -1,0 +1,53 @@
+# Ignore build results
+/bin/
+/obj/
+/publish/
+
+# Ignore user-specific files
+.vscode/
+.idea/
+*.user
+*.userosscache
+*.suo
+*.sln.docstates
+
+# Ignore ASP.NET Core environment variables
+appsettings.Development.json
+appsettings.Production.json
+appsettings.Local.json
+
+# Ignore logs
+*.log
+
+# User-specific config files
+*.user
+*.suo
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# .NET Core Build output
+/Dockerfile
+/.dockerignore
+
+# Visual Studio for Mac
+.vscode/
+
+# Ignore Visual Studio files
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Ignore npm and node_modules (if used for frontend)
+node_modules/
+
+# Ignore JetBrains Rider and WebStorm files
+.idea/
+
+# Ignore ASP.NET Core Temporary files
+tmp/
